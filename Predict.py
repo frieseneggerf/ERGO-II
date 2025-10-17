@@ -102,7 +102,7 @@ def predict(dataset, test_file):
 if __name__ == '__main__':
     df = predict(sys.argv[1], sys.argv[2])
     print(df)
-    # df.to_csv('results.csv', index=False)
+    df.to_csv('results.csv', index=False)
     pass
 
 
